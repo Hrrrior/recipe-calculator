@@ -8,7 +8,6 @@ interface Props {
 
 const RecipeStepIngredient: React.FC<Props> = ({ step }) => {
   const { title, baseIngredient, otherIngredients } = step;
-  const { baseAmount } = baseIngredient;
 
   const [dynamicValue, setDynamicValue] = useState(baseIngredient.baseAmount);
 
@@ -19,7 +18,7 @@ const RecipeStepIngredient: React.FC<Props> = ({ step }) => {
   };
 
   const dynamicIngredients = useMemo(() => {
-    const modifier = (dynamicValue )/ baseAmount
+    const modifier = (dynamicValue )/ baseIngredient.baseAmount
 
     return otherIngredients.map((i, index) => <div key={`${step.no}-${index}`}>{i.title}&nbsp;{(i.baseAmount * modifier).toFixed(1)}&nbsp;{i.unit}</div>)
   },[dynamicValue])
@@ -28,7 +27,7 @@ const RecipeStepIngredient: React.FC<Props> = ({ step }) => {
     <div className={classes.stepContainer}>
       <div className={classes.stepTitle}>{title}</div>
       <label htmlFor="dynamicValue">
-        {}&nbsp;
+        {baseIngredient.title}&nbsp;
         <input
           name="dynamicValue"
           type="number"
