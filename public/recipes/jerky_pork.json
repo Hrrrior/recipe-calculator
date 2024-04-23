@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Kuivatatud liha",
+        "steps": [
+            {
+                "no": 1,
+                "type": "ingredients",
+                "title": "Marinaad",
+                "baseIngredient": {
+                    "title:": [
+                        "Sea abaliha",
+                        "Seapraad kondita"
+                    ],
+                    "baseAmount": 0.8,
+                    "unit": "kg"
+                },
+                "otherIngredients": [
+                    {
+                        "title": [
+                            "Sojakaste"
+                        ],
+                        "baseAmount": 170,
+                        "unit": "ml"
+                    },
+                    {
+                        "title": [
+                            "Worcestershire kaste"
+                        ],
+                        "baseAmount": 170,
+                        "unit": "ml"
+                    },
+                    {
+                        "title": [
+                            "Küüslaugupulber"
+                        ],
+                        "baseAmount": 0.6,
+                        "unit": "supilusikas"
+                    },
+                    {
+                        "title": [
+                            "Pipar"
+                        ],
+                        "baseAmount": 0.6,
+                        "unit": "supilusikas"
+                    },
+                    {
+                        "title": [
+                            "Paprikapulber"
+                        ],
+                        "baseAmount": 0.6,
+                        "unit": "supilusikas"
+                    },
+                    {
+                        "title": [
+                            "Sool"
+                        ],
+                        "baseAmount": 1,
+                        "unit": "teelusikas"
+                    },
+                    {
+                        "title": [
+                            "Tšilli helbed"
+                        ],
+                        "baseAmount": 1,
+                        "unit": "teelusikas"
+                    },
+                    {
+                        "title": [
+                            "Smokey BBQ kaste"
+                        ],
+                        "baseAmount": 2,
+                        "unit": "supilusikas"
+                    }
+                ]
+            },
+            {
+                "no": 2,
+                "type": "cooking",
+                "title": "Kokkamine",
+                "content": "Marineerida liha, vähemalt 10 tundi. Panna marineeritud liha ahju grillrestile (grillrest paigutada ahjuplaadile, et koguda vedelike). Ahjus küpsetada 3-4 tundi 80°C peal."
+            },
+            {
+                "no": 3,
+                "type": "summary",
+                "title": "Kokkuvõte",
+                "content": "Marinaadi tuli veidi palju, saaks 10%-20% võrra rohkem liha katta ilmselt."
+            }
+        ]
+    }
+]
